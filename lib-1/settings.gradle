@@ -1,0 +1,2 @@
+rootProject.name = 'lib-1'
+include ':lib-1-api', ':lib-1-impl-1', ':lib-1-impl-2'

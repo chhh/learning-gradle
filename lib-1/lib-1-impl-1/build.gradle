@@ -11,6 +11,9 @@ plugins {
     id 'java-library'
 }
 
+group = 'fr.example'
+version = '1.0'
+
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api project(':lib-1-api')

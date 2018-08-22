@@ -14,12 +14,16 @@ plugins {
     id 'application'
 }
 
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
 // Define the main class for the application
 mainClassName = 'App'
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
-    compile 'com.google.guava:guava:23.0'
+    //compile 'com.google.guava:guava:23.0'
+
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'

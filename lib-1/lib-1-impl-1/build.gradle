@@ -13,7 +13,7 @@ plugins {
 
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
-    api project('lib-1-api')
+    api project(':lib-1-api')
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     //implementation 'com.google.guava:guava:23.0'
@@ -26,5 +26,6 @@ dependencies {
 repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
+    mavenLocal()
     jcenter()
 }

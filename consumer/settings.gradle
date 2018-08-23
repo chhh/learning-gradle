@@ -8,3 +8,5 @@
  */
 
 rootProject.name = 'consumer'
+
+include('lib-1')

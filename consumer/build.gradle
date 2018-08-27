@@ -25,7 +25,9 @@ dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     //compile 'com.google.guava:guava:23.0'
 
-    implementation "com.example:lib-utils:1.0"
+    implementation("com.example:lib-utils:1.0") {
+        exclude group: 'org.apache.commons', module: 'commons-math3'
+    }
     // compile "fr.example:lib-hi-impl-fr:1.0"
     implementation "com.example:lib-hi:1.0"
 

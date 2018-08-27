@@ -20,7 +20,7 @@ dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     //api 'org.apache.commons:commons-math3:3.6.1'
     api project('lib-hi-api')
-    api project('lib-hi-impl-fr')
+    implementation project('lib-hi-impl-fr')
     api project('lib-hi-impl-de')
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.

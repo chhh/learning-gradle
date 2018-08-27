@@ -12,7 +12,7 @@ public class App {
         System.out.println(com.dmtavt.utils.TextUtils.someLibraryMethod());
 
         String name = "Dima";
-        fr.example.FrenchHello hi = new fr.example.FrenchHello();
+        de.example.GermanHello hi = new de.example.GermanHello();
         System.out.println(hi.hello(name));
     }
 }

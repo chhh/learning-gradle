@@ -7,6 +7,6 @@ public final class TextUtils {
     private TextUtils() {}
 
     public static String someLibraryMethod() {
-        return TextUtils.class.getCanonicalName() + ".someLibraryMethod()";
+        return TextUtils.class.getCanonicalName() + ".someLibraryMethod() v1.1";
     }
 }

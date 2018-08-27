@@ -7,6 +7,7 @@
  */
 
 plugins {
+    id 'com.github.johnrengelman.shadow' version '2.0.4'
     // Apply the java plugin to add support for Java
     id 'java'
 
@@ -18,16 +19,18 @@ group = 'com.example'
 version = '1.0-SNAPSHOT'
 
 // Define the main class for the application
-mainClassName = 'App'
+mainClassName = 'com.example.App'
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     //compile 'com.google.guava:guava:23.0'
 
-    compile project(':lib-1')
+    implementation "com.example:lib-utils:1.0"
+    // compile "fr.example:lib-hi-impl-fr:1.0"
+    implementation "com.example:lib-hi:1.0"
 
     // Use JUnit test framework
-    testCompile 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
 }
 
 // In this section you declare where to find the dependencies of your project

@@ -9,19 +9,15 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
-    id 'maven'
 }
 
-
-group = 'com.example'
+group = 'de.example'
 version = '1.0'
 
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     //api 'org.apache.commons:commons-math3:3.6.1'
-    api project('lib-1-api')
-    api project('lib-1-impl-1')
-    api project('lib-1-impl-2')
+    api project(':lib-hi-api')
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     //implementation 'com.google.guava:guava:23.0'

@@ -9,4 +9,6 @@
 
 rootProject.name = 'consumer'
 
-include('lib-1')
+includeBuild('../lib-utils')
+includeBuild('../lib-hi/')
+// includeBuild('../lib-hi/lib-hi-impl-fr')

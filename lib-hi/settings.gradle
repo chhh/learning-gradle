@@ -1,0 +1,3 @@
+rootProject.name = 'lib-hi'
+
+include(':lib-hi-api', ':lib-hi-impl-fr', ':lib-hi-impl-de')

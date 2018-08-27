@@ -13,8 +13,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="lib-utils" />
     <orderEntry type="module-library">
-      <library name="Gradle: project  lib-1:">
+      <library name="Gradle: lib-1-impl-1-1.0:0">
         <CLASSES />
         <JAVADOC />
         <SOURCES />

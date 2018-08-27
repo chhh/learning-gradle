@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumer.iml" filepath="$PROJECT_DIR$/.idea/modules/consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib-1/consumer-lib-1.iml" filepath="$PROJECT_DIR$/.idea/modules/lib-1/consumer-lib-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib-1-api/lib-1-api.iml" filepath="$PROJECT_DIR$/.idea/modules/lib-1-api/lib-1-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib-1-impl-1/lib-1-impl-1.iml" filepath="$PROJECT_DIR$/.idea/modules/lib-1-impl-1/lib-1-impl-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/lib-utils.iml" />
     </modules>
   </component>

@@ -7,6 +7,6 @@
  * in the user guide at https://docs.gradle.org/4.9/userguide/multi_project_builds.html
  */
 
-rootProject.name = 'lib-1-impl-2'
+rootProject.name = 'lib-hi-impl-fr'
 
-includeFlat 'lib-1-api'
+includeFlat 'lib-hi-api'
